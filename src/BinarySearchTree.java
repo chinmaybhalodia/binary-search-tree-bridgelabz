@@ -44,4 +44,9 @@ public class BinarySearchTree<T extends Comparable<T>> {
         System.out.print(root.data + " ");
         inorderHelper(root.right);
     }
+
+    // function to get tree size
+    public int size(){
+        return this.size;
+    }
 }
