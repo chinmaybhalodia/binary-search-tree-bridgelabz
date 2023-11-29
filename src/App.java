@@ -23,6 +23,9 @@ public class App {
         bst.inorder();
 
         // UC2: Displaying size of bst
-        System.out.print("\nSize of BST is: " + bst.size());
+        System.out.print("\nSize of BST is: " + bst.size() + "\n");
+
+        // Uc3: Searching node 63 in bst
+        bst.search(63);
     }
 }
